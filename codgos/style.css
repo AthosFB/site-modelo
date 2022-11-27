@@ -8,6 +8,7 @@ header {
 h1 {
     margin-top: 3.5%;
     font-size: 3em;
+    font-weight: bolder;
     display: inline-block;
     margin-left: 20%;
 }
@@ -15,7 +16,7 @@ nav {
     display: inline-block;
     width: 50%;
 }
-li {
+nav li {
     float: right;
     font: normal 1.5em Sans-Serif;
     margin-left: 8%;
@@ -23,4 +24,23 @@ li {
 a {
     color: #BCBCBC;
     text-decoration-color: aquamarine;
+}
+#comp {
+    margin-top: 3%;
+    background-color: #232323;
+    width: 60%;
+    color: #BCBCBC;
+    font-family: sans-serif;
+    border-radius: 10px;
+    padding: 1.5%;
+}
+#itens {
+    display: inline-block;
+
+}
+#mapa {
+    display: inline-block;
+}
+#estat {
+    display: inline-block;
 }
